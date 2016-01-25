@@ -1,0 +1,24 @@
+strategies test
+-glass box - you see the source code
+-black box -  you are blind to the code
+
+unit testing
+  - testing the smallest testable unit ( that you can test/ and that you created)
+    -Rails: models
+
+function test
+  -Rails: controllers
+  -RSpec: Feature spec
+
+integration
+  -Rails: integration test (MVC, workflows)
+  -" the suits" accepting test : integration test for non-technical people
+  -Rspec: integration spec
+
+
+  Story ma:
+  persona
+  - goals
+    -features
+      -user stories
+        -scenarios
